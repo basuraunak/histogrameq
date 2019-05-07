@@ -1,4 +1,4 @@
-a=imread('tire.tif');
+a=imread('fig0308a.tif');
 row=size(a,1);
 col=size(a,2);
 ah=uint8(zeros(row,col));
