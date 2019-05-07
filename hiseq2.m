@@ -1,4 +1,4 @@
-a=imread('fig0308a.tif');
+a=imread('tire.tif');
 row=size(a,1);
 col=size(a,2);
 ah=uint8(zeros(row,col));
@@ -37,7 +37,7 @@ figure,
 subplot(1,2,1),imshow(a);
 subplot(1,2,2),imhist(a);
 figure,
-he=histeq(a);
-subplot(1,3,1),imshow(he);
-subplot(1,3,2),imhist(he);
+
+subplot(1,3,1),imshow(ah);
+subplot(1,3,2),imhist(ah);
 
